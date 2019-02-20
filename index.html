@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎来到一米麦田</title>
+	<link rel="shortcut icon" href="images/favicon.ico"/>
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet" media="all">
+	<script type="text/javascript" src="js/index/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/index/jquery.SuperSlide.2.1.1.js"></script>
+	<style type="text/css">
+	.banner-box img{
+		width: 100%;
+	}
+</style>
+
+	
+</head>
+<body>
+	<div class="header">
+	<div class="top">
+		<div class="inner">
+			<div class="logo"> <!-- 放logo 左浮动 -->
+				<a href="#"><img src="images/logo (2).png" width="100px" /></a>
+			</div>
+			<div class="nav"> <!-- 导航栏  右浮动 -->
+				<ul>
+					<li>
+						<a href="index.html">
+					<span>HOME</span>
+					<br>
+					首页
+						</a>
+					</li>
+					<li>
+						<a href="cp.html">
+					<span>PRODUCT</span>
+					<br>
+					产品
+						</a>
+					</li>
+					<li>
+						<a href="xwzx.html">
+					<span>NEWS</span>
+					<br>
+					新闻中心
+						</a>
+					</li>
+					<li>
+						<a href="about.html">
+					<span>BRAND STORY</span>
+					<br>
+					品牌故事
+						</a>
+					</li>
+					<li>
+						<a href="jrwm.html">
+					<span>JOIN US</span>
+					<br>
+					加入我们
+						</a>
+					</li>
+					<li>
+						<a href="hyzx.html">
+					<span>CENTER</span>
+					<br>
+					会员中心
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="banner-box">
+	<div class="bd">
+        <ul>          	    
+            <li style="background:#F3E5D8;">
+                <div class="m-width">
+                <a href="spxq.html"><img src="images/banner1.png" /></a>
+                </div>
+            </li>
+            <li style="background:#B01415">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner2.png" /></a>
+                </div>
+            </li>
+            <li style="background:#C49803;">
+                <div class="m-width">
+                <a href="javascript:void(0);"><img src="images/banner3.png" /></a>
+                </div>
+            </li>
+             
+         
+        </ul>
+    </div>
+    <div class="banner-btn">
+        <a class="prev" href="javascript:void(0);"></a>
+        <a class="next" href="javascript:void(0);"></a>
+        <div class="hd"><ul></ul></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+	 <!-- ABOUT -->
+     <section id="about" data-stellar-background-ratio="0.5">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="about-info">
+                              <div class="gallary-header text-center">
+						<h2>
+							OUR STORY
+						</h2>
+						<p>
+							我们的故事  
+						</p>
+					</div>
+
+                              <div class="wow" data-wow-delay="0.4s">
+                                   <p>国际连锁品牌一米麦田宣布，在中国市场推出新概念门店。这是继2016年11月在新加坡怡丰城全球首间新概念店开业后，在中国市场的首次发布。从原材料到店面装潢，新概念门店旨在为消费者带来独具一格的体验，以回归自然为创意基调，享受美味面包带来的幸福和满足。为庆祝新概念门店发布，一米麦田国际专业烘焙团队倾心打造的多款全新面包亦同时亮相，即日起在一米麦田门店推出。</p>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                         <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                              <img src="images/about-image.png" class="img-responsive" alt="">
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </section>
+
+	<!--galley start-->
+		<section id="gallery" class="gallery">
+			<div class="container">
+				<div class="gallery-details">
+					<div class="gallary-header text-center">
+						<h2>
+							HOT SALE
+						</h2>
+						<p>
+							热销产品
+						</p>
+					</div><!--/.gallery-header-->
+					<div class="gallery-box">
+						<div class="gallery-content">
+						  	<div class="filtr-container">
+						  		<div class="row">
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="images/sr4.JPG" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													布朗熊
+												</a>
+												<p><span>2磅</span><span>298 RMB</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-6">
+						  				<div class="filtr-item">
+											<img src="images/sr5.JPG" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													鎏金岁月
+												</a>
+												<p><span>2 磅</span><span>298 RMB</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="images/竖.JPG" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													爱你一生
+												</a>
+												<p><span>2 磅</span><span>298 RMB</span></p>
+											</div><!-- /.item-title -->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="images/xs4.JPG" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													Pink Pig 
+												</a>
+												<p><span>1 支</span><span>20 RMB</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			<div class="col-md-4">
+						  				<div class="filtr-item">
+											<img src="images/1.JPG" alt="portfolio image"/>
+											<div class="item-title">
+												<a href="#">
+													法香可颂
+												</a>
+												<p><span>1 盒</span><span>48 RMB</span></p>
+											</div> <!-- /.item-title-->
+										</div><!-- /.filtr-item -->
+						  			</div><!-- /.col -->
+
+						  			
+
+						  		</div><!-- /.row -->
+
+						  	</div><!-- /.filtr-container-->
+						</div><!-- /.gallery-content -->
+					</div><!--/.galley-box-->
+				</div><!--/.gallery-details-->
+			</div><!--/.container-->
+
+		</section><!--/.gallery-->
+		<!--gallery end-->
+		<!--blog start-->
+		<section id="blog" class="blog">
+			<div class="container">
+				<div class="blog-details">
+						<div class="gallary-header text-center">
+							<h2>
+								LATEST NEWS
+							</h2>
+							<p>
+								新闻资讯 
+							</p>
+						</div><!--/.gallery-header-->
+						<div class="blog-content">
+							<div class="row">
+
+								<div class="col-sm-4 col-md-4">
+									<div class="thumbnail">
+										<h2>热点新闻 <span>15 november 2018</span></h2>
+										<div class="thumbnail-img">
+											<img src="images/new1.jpg" alt="blog-img">
+											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+										
+										</div><!--/.thumbnail-img-->
+									  
+										<div class="caption">
+											<div class="blog-txt">
+												<h3>
+													<a href="#">
+														三个NO.1！ 一米麦田双十一全网曲奇饼干行业销售第一
+													</a>
+												</h3>
+												<p>
+													2018年阿里巴巴生意参谋显示，11月11日00：00-23:59，一米麦田烘焙旗舰店以傲人成绩斩获全网曲奇饼干行业“NO.1”，同时，在天猫曲奇饼干类目销售额排名、曲奇饼干类目行业预售方面，一米麦田也都斩获行业“NO.1”,独占鳌头。
+												</p>
+												<a href="#">Read More</a>
+											</div><!--/.blog-txt-->
+										</div><!--/.caption-->
+									</div><!--/.thumbnail-->
+
+								</div><!--/.col-->
+
+								<div class="col-sm-4 col-md-4">
+									<div class="thumbnail">
+										<h2>热点新闻 <span>12 October 2018</span></h2>
+										<div class="thumbnail-img">
+											<img src="images/new2.jpg" alt="blog-img">
+											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+										
+										</div><!--/.thumbnail-img-->
+										<div class="caption">
+											<div class="blog-txt">
+												<h3>
+													<a href="#">
+														“创业领袖”柯柯：一米麦田专注于烘焙美好生活
+
+													</a>
+												</h3>
+
+												<p>
+													近日，国民烘焙品牌一米麦田创始人之一的柯柯荣获《胡润百富》“2018 中国30位×30岁创业领袖”称号。作为新一代年轻创业者，柯柯于2016年创立的一米麦田，从一诞生就带着“高端品质、天然健康、美好标配”的爆品DNA。
+												</p>
+												
+												<a href="#">Read More</a>
+											</div><!--/.blog-txt-->
+										</div><!--/.caption-->
+									</div><!--/.thumbnail-->
+
+								</div><!--/.col-->
+
+								<div class="col-sm-4 col-md-4">
+									<div class="thumbnail">
+										<h2>热点新闻 <span>11 October 2018</span></h2>
+										<div class="thumbnail-img">
+											<img src="images/new3.jpg" alt="blog-img">
+											<div class="thumbnail-img-overlay"></div><!--/.thumbnail-img-overlay-->
+										
+										</div><!--/.thumbnail-img-->
+										<div class="caption">
+											<div class="blog-txt">
+												<h3><a href="#">瑞幸咖啡CMO和一米麦田CEO在新匠人养成营分享了什么</a></h3>
+												<p>
+													刚刚过去的这个周末，吴晓波频道“2018新匠人加速计划”的重要组成——“新匠人养成营”之品牌力线下课程在杭州梦想小镇顺利举办。财经作家吴晓波、上海正见品牌顾问崔洪波、luckin coffee瑞幸咖啡CMO杨飞...
+												</p>
+												<p></p>
+												<a href="#">Read More</a>
+											</div><!--/.blog-txt-->
+										</div><!--/.caption-->
+									</div><!--/.thumbnail-->
+
+								</div><!--/.col-->
+
+							</div><!--/.row-->
+						</div><!--/.blog-content-->
+					</div><!--/.blog-details-->
+				</div><!--/.container-->
+
+		</section><!--/.blog-->
+		<!--blog end-->
+		<!-- what-we-do -->
+		<div id="what-we-do">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="left-text">
+                       <h4>TOP BREADS IN STORE</h4>
+                        <p>十八世纪维也纳的玛丽安东皇后将可颂面包引入法国贵族圈，从此可颂<br><br>便成了法国的代名词，一杯咖啡，一个可颂开启美好且浪漫的一天。甄<br><br>选新西兰黄油搭配法式淡奶油，经过繁复的工艺制作，让可颂口感酥嫩，<br><br>回烤后嵌入奶酪芝士酱，令内馅丝滑细腻，咬下一口，或许这是比爱情<br><br>更幸福的黄油香味。</p>
+                        <ul>
+                            <li>
+                                <div class="white-button">
+                                    <a href="#" class="scroll-link" data-id="portfolio">Discover More</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="primary-button">
+                                    <a href="#">Purchase Now</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="right-image">
+                        <img src="images/what-we-do-right-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+		<!-- what-we-do end -->
+		
+		<!-- Team Members -->
+            <div class="cr-section team-members section-padding-lg bg-white">
+                <div class="container">
+                    <div class="row justify-content-center">
+						<div class="gallary-header text-center">
+							<h2>
+								TEAM MEMBERS
+							</h2>
+							<p>
+								团队成员 
+							</p>
+						</div><!--/.gallery-header-->
+                    </div>
+                    <div class="row justify-content-center">
+                        
+                        <!-- Single Team Member -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="team-wrapper mt-30">
+                                <div class="team-member">
+                                    <img src="images/team-member-1.jpg" alt="team image" />
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-info text-center">
+                                    <h3>Jonathon Doe</h3>
+                                    <span>来自法国甜点世家</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Team Member -->
+                        
+                        <!-- Single Team Member -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="team-wrapper mt-30">
+                                <div class="team-member">
+                                    <img src="images/team-member-2.jpg" alt="team image" />
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-info text-center">
+                                    <h3>Johnny Seans</h3>
+                                    <span>法芙娜全球技术总监</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Team Member -->
+                        
+                        <!-- Single Team Member -->
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="team-wrapper mt-30">
+                                <div class="team-member">
+                                    <img src="images/team-member-3.jpg" alt="team image" />
+                                    <div class="team-icon">
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-tumblr"></i></a>
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-info text-center">
+                                    <h3>Magnus Muller</h3>
+                                    <span>宝茸全球技术总监</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// Single Team Member -->
+
+                    </div>
+                </div>
+            </div>
+            <!--// Team Members -->
+
+		 <!-- FOOTER -->
+   
+	
+     <footer id="footer" data-stellar-background-ratio="0.5">
+     	<hr>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">网站注册公司名称</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>福建一米麦田有限公司<br>福建省福州市鼓楼区<br>软件园福建工程学院</p>
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-8">
+                         <div class="footer-info">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">订购热线</h2>
+                              </div>
+                              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                                   <p>4008-666-666 | 4008-666-888</p>
+                                   <p><a href="mailto:info@company.com">info@A Meter Catcher Group.com</a></p>
+                                   
+                              </address>
+                         </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-8">
+                         <div class="footer-info footer-open-hour">
+                              <div class="section-title">
+                                   <h2 class="wow fadeInUp" data-wow-delay="0.2s">营业时间</h2>
+                              </div>
+                              <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                  <p><strong>周一: 休息</strong></p> 
+                                   <div>
+                                        <strong>周二 - 周五</strong>
+                                        <p>7:00 AM - 9:00 PM</p>
+                                   </div>
+                                   <div>
+                                        <strong>周六 - 周日</strong>
+                                        <p>11:00 AM - 10:00 PM</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-4">
+                         <ul class="wow fadeInUp social-icon" data-wow-delay="0.4s">
+                              <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
+                              <li><a href="#" class="fa fa-twitter"></a></li>
+                              <li><a href="#" class="fa fa-instagram"></a></li>
+                              <li><a href="#" class="fa fa-google"></a></li>
+                         </ul>
+
+                         <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s"> 
+                              <p>Copyright &copy; © 2018 <br>A Meter Catcher Group Limited 
+                              
+                              <br><br>版权所有。 闽公网安备 31010402000684号</p>
+                         </div>
+                    </div>
+                    
+               </div>
+          </div>
+     </footer>
+ </body>
+ </html>
