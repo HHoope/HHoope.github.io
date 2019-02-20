@@ -1,0 +1,934 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #fafafa;
+}
+li {
+	list-style: none; /*  取消li 的小点 */
+}
+
+ .clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+ .clearfix {*zoom: 1;}   /* IE6、7 专有 */
+/* 顶部导航栏开始啦 */
+.header {
+	height: 158px;
+	background-color: #fff;
+	box-shadow: 0 0 15px 0 rgba(0,0,0,1);
+}
+.inner {
+	width: 1450px;
+	height: 158px;
+	/* background-color: pink; */
+	margin: 0 auto;
+	height: 158px;
+	z-index: 999;
+}
+.logo {
+	margin-top: 45px;
+	width: 100px;
+	float: left;
+	margin-left: 120px;
+}
+
+.nav{
+	float: right;
+	margin-right:120px;
+}
+.nav ul {
+
+	overflow: hidden;
+	line-height: 124px;
+	text-align:center;
+
+}
+.nav li  {
+	width: 180px;
+	border-right: solid 1px #333;
+	text-align:center;
+	line-height: 2em;
+	margin-left: 0px;
+	float: left;
+	margin-top: 60px;
+	
+}
+
+	
+.nav li a {
+	display: inline-block;
+	color: #333;
+	text-decoration: none;
+	font-size: 18x;
+	text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    padding-bottom: 4px;
+   
+}
+
+.nav li a:hover {
+	color:#fab93c;
+	border-bottom: 4px solid #fab93c;
+}
+
+.nav li a:active {
+	color:#fab93c;
+	border-bottom: 4px solid #fab93c;
+}
+
+.breadcrumbs {
+  margin-top: 3px;
+  background: rgba(0, 0, 0, 0) url("../images/bt.png") no-repeat scroll center center / cover ;
+  padding: 100px 0 200px;
+  position: relative;
+}
+.breadcrumbs-menu {
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  bottom: 3px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.breadcrumbs-title > h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li {
+    color: #ffbc00;
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li a {
+    color: #757575;
+    font-weight: 400;
+}
+.breadcrumbs-menu li:first-child {
+    margin-left: 0;
+}
+.breadcrumbs-menu li span {
+    margin-left: 10px;
+}
+.breadcrumbs-menu li a:hover {
+    color: #ffbc00;
+}
+.service-block, .gallery-block, .vacation-offer-block, .resort-overview-block, .blog-block, .blog-block-slider, .about-block, .contact-block, .blog{
+    padding: 70px 0 0 0;
+    margin-bottom: 100px;
+}
+.side-A{
+    float: left;
+    width: 50%;
+}
+.side-B{
+    float: right;
+    width: 50%;
+}
+.image img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-desc-side {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 278px;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    text-align: left;
+}
+.product-desc-side h3 {
+    border-bottom: 1px dashed #ddd;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.product-desc-side h3::before {
+    background: #ffbc00;
+    bottom: -1px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 35px;
+    transition: width 0.9s;
+}
+.product-desc-side:hover h3:before{
+    width: 100%;
+
+
+
+
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    color: #2b2b2b;
+}
+a, a:hover, a:focus, button:hover, button:focus {
+    outline: 0 none !important;
+    text-decoration: none;
+}
+a:focus ,a:hover{
+    color: #ffbc00;
+}
+.product-desc-side > p {
+    margin: 22px 0;
+}
+.links > a , .event-blog-details a.btn-default{
+    border: 1px solid;
+    display: inline-block;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    border-radius: 0;
+    color: #333;
+}
+.links > a:hover, .event-blog-details a.btn-default:hover{
+    text-decoration: none;
+    background: #ffbc00;
+    border-color: #ffbc00;
+    color: #fff;
+}
+.side-A .product-desc-side {
+    padding: 0;
+}
+
+.year{
+    border-top: 100px;
+	width: 1200px;
+	height: 100px;
+	margin: 50px auto 100PX auto;
+	text-align:center;
+	line-height: 100px;
+
+
+}
+.year ul{display: inline-block;
+	
+}
+.year ul li{
+	display: block;
+	
+	float: left;
+	width: 200px;
+	height: 50px;
+	text-align:center;
+	line-height: 50px;
+	color: #333;
+	
+}
+.year a{
+	font-size: 24px;
+    background: #ffbc00;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 10px;
+    min-width: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(55, 56, 56, 0.2);
+    box-shadow: 0px 20px 50px 0px rgba(55, 56, 56, 0.2);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.year a:hover{
+    text-decoration: none;
+    transition-delay: 100ms;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-property: color;
+	color: #fff;
+	background-color: #333;	
+}
+:target{display:block;}
+dd{
+	display: none;
+}
+dl{width:1200px;
+height:900px;
+overflow:hidden;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+}
+
+.main{
+	width: 1300px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mainbody{
+	width: 1300px;
+}
+.mainbody ul li{
+	float: left;
+    padding: 0 20px;
+    width: 550px;
+    height: 286px;
+}
+
+.main1{
+	float: left;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+
+.main2018{
+	width: 1200px;
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.main1:hover .left{
+	border:1px solid #f1a20e;
+}
+.main2:hover .left{
+	border:1px solid #f1a20e;
+}
+.main3:hover .left{
+	border:1px solid #f1a20e;
+}
+.main4:hover .left{
+	border:1px solid #f1a20e;
+}
+.main5:hover .left{
+	border:1px solid #f1a20e;
+}
+.main6:hover .left{
+	border:1px solid #f1a20e;
+}
+
+.main1 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main2018 .main1 .left span
+{
+	color: #f1a20e;
+}
+.main2018 .main2 .left span
+{
+	color: #f1a20e;
+}.main2018 .main3 .left span
+{
+	color: #f1a20e;
+}.main2018 .main4 .left span
+{
+	color: #f1a20e;
+}.main2018 .main5 .left span
+{
+	color: #f1a20e;
+}.main2018 .main6 .left span
+{
+	color: #f1a20e;
+}
+.main .main1 .left span
+{
+	color: #f1a20e;
+}
+.main .main2 .left span
+{
+	color: #f1a20e;
+}.main .main3 .left span
+{
+	color: #f1a20e;
+}.main .main4 .left span
+{
+	color: #f1a20e;
+}.main .main5 .left span
+{
+	color: #f1a20e;
+}.main .main6 .left span
+{
+	color: #f1a20e;
+}
+.main1 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main1 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main1 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main1 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a {
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover {
+    transition-delay: 100ms;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-property: color;
+	color:#f1a20e;
+}
+.main1 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main1 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main1 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.main2{
+	float:right;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+.main2 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main2 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #fab93c;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main2 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main2 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main2 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a{
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover{
+	color:#f1a20e;
+}
+.main2 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main2 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.main3{
+	float:right;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+.main3 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main3 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main3 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main3 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main3 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a{
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover{
+	color: #777;
+}
+.main3 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main3 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.main4{
+	float:right;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+.main4 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main4 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main4 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main4 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main4 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a{
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover{
+	color: #777;
+}
+.main4 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main4 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.main5{
+	float:right;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+.main5 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main5 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main5 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main5 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main5 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a{
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover{
+	color: #777;
+}
+.main5 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main5 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+.main6{
+	float:right;
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid #e5ebe7;
+}
+.main6 .left{
+	position: absolute;
+    left: 0;
+    top: 50px;
+    width: 70px;
+    height: 110px;
+    border: 1px solid #d7d7d7;
+    text-align: center;
+    padding: 0 8px;
+    border-radius: 10px;
+    transition: all 0.2s ease-out 0s;
+}
+.main6 .left span{
+	display: block;
+    float: left;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    line-height: 48px;
+    height: 48px;
+    
+}
+.main6 .left font{
+	border-top: solid 1px #777;
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 10px;
+    color: #333;
+
+}
+.main6 .right{   
+	float: left;
+    width: 100%;
+    margin-top: 41px;
+    margin-left: 20px;
+}
+.main6 .right h3{
+	display: block;
+    float: left;
+    width: 100%;
+    height: 72px;
+    line-height: 36px;
+    font-size: 18px;
+    overflow: hidden;
+}
+h3 a{
+	color: #333;
+	text-decoration: none;
+}
+h3 a:hover{
+    text-decoration: none;
+	color: #f1a20e;
+}
+.main6 .right span{
+	display: block;
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    color: #333;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 18px;
+}
+
+
+.main6 .right font a{
+	display: block;
+    float: right;
+    background: url(../images/arrow.png) no-repeat right center;
+    padding-right: 30px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #000;
+}
+ .chakan{
+ 	width: 100%;
+ 	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+.chakan a{
+    font-size: 15px;
+    background: #ffbc00;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 50px;
+    min-width: 160px;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(55, 56, 56, 0.2);
+    box-shadow: 0px 20px 50px 0px rgba(55, 56, 56, 0.2);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+}
+.chakan a:hover{
+    transition-delay: 100ms;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-property: color;
+	color: #fff;
+	background-color: #000;
+
+
+}
+
+

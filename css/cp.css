@@ -1,0 +1,149 @@
+.tj{
+
+    width:140px;
+    height:40px;
+    border-left:8px #ff5000 solid;
+    margin:20px auto ;
+    text-align: center;
+}
+
+._tiltle{
+    font-size: 21px;
+    color: #666666;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    top: -3px;
+}
+._en{
+    font-size:12px;
+    color:#666;
+}
+.Class h1{
+    font-size: 14px;
+    font-weight: normal;
+    color: #7b9196;
+}
+.Class img{
+    margin-top: -5px;
+}
+.Class li{
+    margin-top: 10px;
+}
+.Class a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #666;
+}
+.Class li:hover::after{
+    content:url(../images/coin.png);   
+}
+.Class a:hover{
+    color: #d7a95a;
+}
+.Class{
+    font-family:方正北魏楷楷书简体 ;
+    float: right;
+   
+}
+.container-a3{
+    text-align: center;
+    margin: 20px auto;
+    width: 1150px;
+
+}
+.caption-style-3{
+    display: inline-block;
+    width: 1040px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.caption-style-3 li{
+    width: 220px;
+    height:250px;
+    float: left;
+    text-align:center;
+    text-decoration: none;
+    margin:20px;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    
+        }
+.pro_box{
+    width: 225px;
+    height:220px;
+    border-bottom: 1px #e4e7ee solid;
+
+    display: block;
+}
+.pro_little{
+    margin-top: 10px;
+    font-family: "方正北魏楷楷书简体";
+    font-size: 14px;
+
+}
+
+.caption-style-3 .pro_box:hover .caption{
+    border-bottom: 1px #000 solid;
+            opacity: 1;
+            transform: translateY(-100px);
+            -webkit-transform:translateY(-100px);
+            -moz-transform:translateY(-100px);
+            -ms-transform:translateY(-100px);
+            -o-transform:translateY(-100px);
+        }
+
+
+.caption-style-3 img{
+            margin: 2px;
+            padding: 0px;
+            float: left;
+            z-index: 4;
+        }
+
+
+.caption-style-3 .caption{
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            top:260px;
+            -webkit-transition:all 0.15s ease-in-out;
+            -moz-transition:all 0.15s ease-in-out;
+            -o-transition:all 0.15s ease-in-out;
+            -ms-transition:all 0.15s ease-in-out;
+            transition:all 0.15s ease-in-out;
+
+        }
+
+.caption-style-3 img{
+            -webkit-transition:all 0.15s ease-in-out;
+            -moz-transition:all 0.15s ease-in-out;
+            -o-transition:all 0.15s ease-in-out;
+            -ms-transition:all 0.15s ease-in-out;
+            transition:all 0.15s ease-in-out;
+
+        }
+ .caption-style-3 .blur{
+            background-color: rgba(0, 0, 0,0.5);
+            height: 60px;
+            width: 220px;
+            z-index: 5;
+            position: absolute;
+        }
+
+ .caption-style-3 .caption-text h1{
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+ .caption-style-3 .caption-text{
+            font-size: 12px;
+            z-index: 10;
+            color: #fff;
+            position: absolute;
+            width: 220px;
+            height: 80px;
+            top:-5px;
+        }

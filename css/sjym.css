@@ -1,0 +1,93 @@
+.bgc{
+	width: 100%;
+	background-color:#fff;
+}
+.content{
+	width: 1200px;
+	margin:0 auto;
+}
+.breadcrumbs {
+  text-align: center;
+  margin-top: 3px;
+  background: rgba(0, 0, 0, 0) url("../images/ju.png") no-repeat scroll center center / cover ;
+  padding: 100px 0 200px;
+  position: relative;
+}
+.breadcrumbs-menu {
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+  bottom: 0px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.breadcrumbs-title > h2 {
+    color: #000;
+    font-size: 50px;
+    line-height: 22px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li {
+    color: #ffbc00;
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li a {
+    color: #fff;
+    font-weight: 400;
+}
+.breadcrumbs-menu li:first-child {
+    margin-left: 0;
+}
+.breadcrumbs-menu li span {
+    margin-left: 10px;
+}
+.breadcrumbs-menu li a:hover {
+	text-decoration: none;
+    color: orange;
+}
+
+.bt{padding-top: 50px;
+    font-size:24px;
+	color:orange;
+	font-family:"方正字迹-曾柏求魏碑简体";}    
+hr{
+	width: 100%;
+  }
+.nr{margin-top:20px;
+  line-height:1.2em;
+  font-size:18px;
+font-family:"方正字迹-曾柏求魏碑简体";}
+  
+#box01{
+	width:120px;
+    height:50px;
+	text-align:center;
+	line-height:50px;
+	background-color:;
+	border:1px orange solid;
+	font-size:18px;
+	font-family:"宋体";
+	margin-top:50px;
+	border-radius:20px;		
+}
+#box01:hover{
+	background-color: orange;
+
+}
+#box01 a{
+	color:orange;
+	text-decoration: none;}
+
+#box01 a:hover{
+	color:#fff;
+	transition-delay: 100ms;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-property: color;
+}

@@ -1,0 +1,160 @@
+.breadcrumbs {
+  margin-top: 3px;
+  background: rgba(0, 0, 0, 0) url("../images/about.png") no-repeat scroll center center / cover ;
+  padding: 100px 0 200px;
+  position: relative;
+}
+.breadcrumbs-menu {
+  background: rgba(255, 255, 255, 0.7) none repeat scroll 0 0;
+  bottom:0px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  width: 100%;
+}
+
+.breadcrumbs-title > h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 22px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li {
+    color: #ffbc00;
+    display: inline-block;
+    font-family: "Raleway",sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.breadcrumbs-menu li a {
+    color: #757575;
+    font-weight: 400;
+}
+.breadcrumbs-menu li:first-child {
+    margin-left: 0;
+}
+.breadcrumbs-menu li span {
+    margin-left: 10px;
+}
+.breadcrumbs-menu li a:hover {
+    color: #ffbc00;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+------------------------------------
+     FOOTER              
+  -----------------------------------------*/
+
+  footer {
+    background-color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.05);
+    padding: 120px 0;
+    padding-bottom: 80px;
+  }
+
+  footer .section-title {
+    padding-bottom: 10px;
+  }
+
+  footer h2 {
+    font-family: "宋体";
+    font-size: 20px;
+  }
+
+  footer a,
+  footer p {
+    margin-top: 20px;
+    line-height: 2em;
+     font-family: "宋体";
+    color: #909090;
+    line-height: 40px;
+  }
+
+  footer strong {
+    color: #d9d9d9;
+  }
+
+  footer address p {
+    line-height: 40px;
+    margin-bottom: 0;
+  }
+
+  .footer-info,
+  footer .social-icon {
+
+  }
+
+  .footer-open-hour {
+    
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 0;
+    padding: 20px 0 40px 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 22;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .footer-open-hour::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2222;
+  }
+
+  .footer-open-hour h2 {
+    margin-top: 0;
+    color: #575757;
+  }
+
+  .footer-open-hour p {
+    color: #575757;
+  }
+
+  .footer-open-hour strong {
+    color: #575757;
+  }
+   .social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+  }
+
+  .social-icon li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 5px;
+  }
+
+  .social-icon li a {
+    border-radius: 100px;
+    color: orange;
+    font-size: 15px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    position: relative;
+  }
+
+  .social-icon li a:hover {
+    background: orange;
+    color: #ffffff;
+  }
+
+
